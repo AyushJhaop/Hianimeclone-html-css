@@ -1,4 +1,4 @@
-/* CSS Variables for colors */
+
 :root {
   --bg-color: #1D1C2B;
   --primary-color: #eb1f5f;
@@ -10,12 +10,12 @@
   --font-sans: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Reset and base */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: background-color 0.3s ease, color 0.3s ease; /* smooth color changes */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* HEADER */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -65,7 +65,7 @@ body {
   margin-left: 8px;
 }
 
-/* CENTER SEARCH */
+
 .middle_sec {
   flex: 1;
   display: flex;
@@ -109,7 +109,7 @@ body {
   filter: brightness(0) invert(0);
 }
 
-/* RIGHT SECTION */
+
 .right_sec {
   display: flex;
   align-items: center;
@@ -132,7 +132,7 @@ body {
   margin-right: 14px;
 }
 
-/* HERO SECTION */
+
 .hero_page {
   position: relative;
   height: calc(100vh - 60px);
@@ -233,7 +233,7 @@ body {
   box-shadow: 0 10px 20px rgba(235, 31, 95, 0.6);
 }
 
-/* TRENDING SECTION */
+
 .trending {
   padding: 2% 2% 2% 2%;
   color: var(--text-color);
@@ -242,7 +242,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-/* CARD AREA */
+
 .card_area {
   padding: 40px;
   background-color: var(--bg-color);
@@ -320,7 +320,7 @@ body {
   border-radius: 0 0 20px 20px;
 }
 
-/* FOOTER */
+
 .footer {
   background-color: var(--bg-color);
   color: var(--text-color);
